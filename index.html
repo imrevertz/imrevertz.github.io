@@ -1,31 +1,51 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-    <!-- HTML Meta Tags -->
-    <title>Time Wasted Counter</title>
-    <meta name="description"
-          content="Have you ever wondered for how long you just wasted time at doing something? Visit this website and you will know for how long you've been wasting time, all of this with a cool background music :)">
-    <meta charset="utf-8">
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/favicon.png">
+    
+    <!-- Title -->
+    <title>🌴 ・ Time Wasted</title>
 
-    <!-- Discord Meta Tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Time Wasted Counter">
-    <meta property="og:description"
-          content="Have you ever wondered for how long you just wasted time at doing something? Visit this website and you will know for how long you've been wasting time, all of this with a cool background music :)">
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:title" content="Time Wasted Counter">
-    <meta name="twitter:description"
-          content="Have you ever wondered for how long you just wasted time at doing something? Visit this website and you will know for how long you've been wasting time, all of this with a cool background music :)">
+    <!-- Javascript -->
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
 
-    <link href="/assets/css/style.css" rel="stylesheet">
-    <link href="/assets/favicon.png" rel="icon">
 </head>
 <body>
-<div class="container">
-    <h1>You just wasted <span id="count"></span> of your life.</h1>
-    <button id="toggleMusic">Turn music <strong id="musicStatus">off</strong></button>
-    <button id="toggleCounter">I <strong id="counterStatus">stopped</strong> wasting time.</button>
+
+    <header>
+        <nav>
+            <div class="header_logo">
+                <img src="assets/favicon.png" alt="" srcset="">
+            </div>
+            <div class="header_links">
+                <ul class="nav_links">
+                    <li class="nav_link"><a href="#">Home</a></li>
+                    <!-- <li class="nav_link"><a href="#">Shop</a></li> -->
+                    <!-- <li class="nav_link"><a href="#">Repos</a></li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+        <img src="assets/favicon.png" alt="" srcset="">
+        <span>Time Wasted</span>
+        <p>Congrats you just wasted 5 seconds of your life.</p>
+        <ul>
+            <li><a target="_blank" href="https://discord.com/users/1056288327399129108"><i class="fab fa-discord"></i></a></li>
+            <li><a target="_blank" href="https://github.com/imrevertz"><i class="fab fa-github"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/@notrevertz"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+    </section>
 </div>
 <footer>
     <p>Copyright © 2021-<span id="year">2022</span> - Made with <span class="heart">&hearts;</span> by <strong><a
@@ -35,8 +55,6 @@
     <source src="music.mp3" type="audio/mpeg">
     <source src="music.ogg" type="audio/ogg">
     <source src="music.wav" type="audio/wav">
-    Make sure your browser supports the audio element.
 </audio>
 </body>
-<script src="/assets/js/core.js" charset="utf-8"></script>
 </html>
