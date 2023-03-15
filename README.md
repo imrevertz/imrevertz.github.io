@@ -8,5 +8,5 @@
 ##  
 
 ### License & Warning
-- Make for education propose only !
+- Made for educational proposes only!
 - Under licensed MIT MIT License.
