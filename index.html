@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Javascript -->
-    <script defer src="assets/js/cursor.js"></script>
+    <script defer src="assets/js/core.js"></script>
     
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
@@ -36,7 +36,12 @@
             </div>
         </nav>
     </header>
-
+<body>
+<div class="container">
+    <h1>You just wasted <span id="count"></span> of your life.</h1>
+    <button id="toggleMusic">Turn music <strong id="musicStatus">off</strong></button>
+    <button id="toggleCounter">I <strong id="counterStatus">stopped</strong> wasting time.</button>
+</div>
     <section class="main">
         <img src="assets/favicon.png" alt="" srcset="">
         <span>Time Wasted</span>
