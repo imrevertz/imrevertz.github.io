@@ -4,7 +4,7 @@
   <br>
 </p>
 
-### Credits:
+### Credits to:
 
 <li> https://github.com/KanekiWeb
 <li> https://github.com/mewzax
