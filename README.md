@@ -6,6 +6,6 @@
 
 ### Credits:
 
-<li>[Paradox](https://github.com/KanekiWeb/kanekiweb.github.io)
-<li>[Mewzax](https://mewzax.github.io/)
-<li>[Imcarti](https://github.com/imcarti/imcarti)
+<li> [Paradox](https://github.com/KanekiWeb/kanekiweb.github.io)
+<li> [Mewzax](https://mewzax.github.io/)
+<li> [Imcarti](https://github.com/imcarti/imcarti)
