@@ -6,6 +6,6 @@
 
 ### Credits:
 
-<li> https://github.com/KanekiWeb/kanekiweb.github.io
-<li> https://mewzax.github.io
+<li> https://github.com/KanekiWeb
+<li> https://github.com/mewzax
 <li> https://github.com/imcarti
