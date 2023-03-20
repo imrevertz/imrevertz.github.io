@@ -1,55 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta Tags -->
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/favicon.png">
-    
+    <meta name="robots" content="follow, index">
+    <meta name="description" content="">
+    <meta property="og:title" content="Revertz">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://imrevertz.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Revertz">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/113061833?v=4">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mayberevertz">
+    <meta name="twitter:creator" content="@mayberevertz">
+    <meta name="twitter:title" content="Revertz">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/113061833?v=4">
+
     <!-- Title -->
     <title>Time Wasted</title>
 
-    <!-- Css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/favicon.png">
 
-    <!-- Javascript -->
-    <script src="assets/js/script.js"></script>
-    
-    <!-- Fonts -->
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
 
 </head>
 <body>
+    <!-- Div -->
+    <div id="div" hidden></div>
 
+    <!-- Navbar -->
     <header>
         <nav>
-        <div class="card">
+            <div class="header-logo">
             <img src="https://avatars.githubusercontent.com/u/113061833?v=4" alt="Revertz">
             <div class="card-text">
             </div>
-            <div class="header_links">
-                <ul class="nav_links">
-                    <li class="nav_link"><a href="#">Home</a></li>
-                    <!-- <li class="nav_link"><a href="#">Shop</a></li> -->
-                    <!-- <li class="nav_link"><a href="#">Repos</a></li> -->
+
+            <div class="header-links">
+                <ul class="nav-links">
+                    <li class="nav-link"><a draggable="false" href="index.html">Home</a></li>
+                    <!-- <li class="nav-link"><a href="about.html">About</a></li> -->
+                    <!-- <li class="nav-link"><a href="contact.html">Contact</a></li> -->
                 </ul>
             </div>
         </nav>
     </header>
 
-    <section class="main">
+    <!-- Main -->
+    <section class="index">
+        <div class="card">
         <img src="assets/favicon.png" alt="" srcset="">
-        <span>Time Wasted</span>
-        <p>You just wasted <b>5</b> seconds of your life.</p>
-        <ul>
-            <li><a target="_blank" href="https://discord.com/users/1056288327399129108"><i class="fab fa-discord"></i></a></li>
-            <li><a target="_blank" href="https://github.com/imrevertz"><i class="fab fa-github"></i></a></li>
-            <li><a target="_blank" href="https://www.youtube.com/@notrevertz"><i class="fab fa-youtube"></i></a></li>
-        </ul>
+            <div class="card-text">
+                <h1>Time Wasted</h1>
+                <p>You just wasted <b>5</b> seconds of your life.</p>
+            </div>
+            <div class="card-links">
+                <ul>
+                    <li><a draggable="false" target="_blank" href="https://discord.com/users/1056288327399129108"><i class="fab fa-discord"></i></a></li>
+                    <li><a draggable="false" target="_blank" href="hhttps://github.com/imrevertz"><i class="fab fa-github"></i></a></li>
+                    <li><a draggable="false" target="_blank" href="https://www.youtube.com/@notrevertz"><i class="fab fa-twitch"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </section>
-    </div>
-<audio id="music" autoplay loop>
+    <script src="assets/js/script.js"></script>
+    <audio id="music" autoplay loop>
     <source src="assets/music/music.mp3" type="audio/mpeg">
     <source src="assets/music/music.ogg" type="audio/ogg">
     <source src="assets/music/music.wav" type="audio/wav">
