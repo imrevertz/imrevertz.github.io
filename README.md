@@ -1,12 +1,11 @@
-<p align='center'>
-  <b>My Socials</b><br>  
-  <a href="https://discord.com/users/1056288327399129108">Discord</a> |
-  <a href="https://www.youtube.com/@notrevertz">YouTube</a> |
-  <a href="https://github.com/imrevertz">Github</a><br><br>
+<p align="center">
+  <b>Time Wasted</b><br>
+  Made by <b><a href="https://github.com/imrevertz">Revertz</a></b>
+  <br>
 </p>
 
-##  
+### Credits:
 
-### License & Warning
-- Made for educational proposes only!
-- Under licensed MIT MIT License.
+[Paradox] (https://github.com/KanekiWeb/kanekiweb.github.io)
+[Mewzax] (https://mewzax.github.io/)
+[Imcarti] (https://github.com/imcarti/imcarti)
