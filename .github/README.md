@@ -8,4 +8,3 @@
 
 <li> https://github.com/KanekiWeb
 <li> https://github.com/mewzax
-<li> https://github.com/imcarti
