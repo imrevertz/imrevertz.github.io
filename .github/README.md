@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Time Wasted</b><br>
+  <b>Personal Website Page</b><br>
   Made by <b><a href="https://github.com/imrevertz">Revertz</a></b>
   <br>
 </p>
