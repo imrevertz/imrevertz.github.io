@@ -1,79 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Meta -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="follow, index">
-    <meta name="description" content="">
-    <meta property="og:title" content="Revertz">
-    <meta property="og:description" content="">
-    <meta property="og:url" content="https://imrevertz.github.io/">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Revertz">
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/113061833?v=4">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@mayberevertz">
-    <meta name="twitter:creator" content="@mayberevertz">
-    <meta name="twitter:title" content="Revertz">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/113061833?v=4">
+<html>
+  <head>
+    <title>obnoxious.club</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="obnoxious.club - hack vs hack team" />
+    <meta name="keywords" content="obnoxious.club, obnoxious, club, counter-strike, csgo, hvh" />
+    <meta name="author" content="Lummit" />
+    <meta property="og:type" content="site" />
+    <meta property="og:title" content="obnoxious.club" />
+    <meta property="og:description" content="obnoxious.club - hack vs hack team" />
+    <meta property="og:url" content="https://obnoxious.club/" />
+    <meta property="og:image" content="assets/icons/obnoxious.jpg" />
+    <meta itemprop="name" content="obnoxious.club" />
+    <meta itemprop="description" content="obnoxious.club - hack vs hack team" />
+    <meta itemprop="image" content="assets/icons/obnoxious.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <!-- Title -->
-    <title>Revertz</title>
+    <link rel="shortcut icon" href="assets/icons/obnoxious.jpg" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+  </head>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/favicon.png">
+  <body>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
+    <div id="main">
+      <table class="box">
+        <tbody>
+          <tr>
+            <td><span id="line1" style="white-space: pre;"></span></td>
+          </tr>
+          <tr>
+            <td><span id="line2" style="white-space: pre;"></span></td>
+          </tr>
+          <tr>
+            <td><span id="line3 space" style="white-space: pre;"></span></td>
+          </tr>
+          <tr>
+            <td><span id="line4" style="white-space: pre;"></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-</head>
-<body>
-    <!-- Div -->
-    <div id="div" hidden></div>
+    <div class="container" style="display: none;">
+      <h1 class="brand-header">
+        <a href="https://steamcommunity.com/groups/obnoxious_club" target="_BLANK">obnoxious.club</a>
+      </h1>
 
-    <!-- Navbar -->
-    <header>
-        <nav>
-            <div class="header-logo">
-            <img src="https://avatars.githubusercontent.com/u/113061833?v=4" alt="Revertz">
-            </div>
-                
-            <div class="header-links">
-                <ul class="nav-links">
-                    <li class="nav-link"><a draggable="false" href="index.html">Home</a></li>
-                    <!-- <li class="nav-link"><a href="about.html">About</a></li> -->
-                    <!-- <li class="nav-link"><a href="contact.html">Contact</a></li> -->
-                </ul>
-            </div>
-        </nav>
-    </header>
+      <p><span id="brand"></span></p>
+    </div>
 
-    <!-- Main -->
-    <section class="index">
-        <div class="card">
-        <img src="assets/favicon.png" alt="" srcset="">
-            <div class="card-text">
-                <h1>Revertz</h1>
-                <p>You just wasted <b>5</b> seconds of your life.</p>
-            </div>
-            <div class="card-links">
-                <ul>
-                    <li><a draggable="false" target="_blank" href="https://discord.com/users/1056288327399129108"><i class="fab fa-discord"></i></a></li>
-                    <li><a draggable="false" target="_blank" href="https://github.com/imrevertz"><i class="fab fa-github"></i></a></li>
-                    <li><a draggable="false" target="_blank" href="https://www.youtube.com/@notrevertz"><i class="fab fa-twitch"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <script src="assets/js/script.js"></script>
-    <audio id="music" autoplay loop>
-    <source src="assets/music/music.mp3" type="audio/mpeg">
-    <source src="assets/music/music.ogg" type="audio/ogg">
-    <source src="assets/music/music.wav" type="audio/wav">
-</audio>
-</body>
+    <div class="marquee-container" style="visibility: hidden;">
+      <pre>|<div id="marquee"></div>|</pre>
+    </div>
+
+    <div class="background" style="display: none;">
+      <div id="pattern"></div>
+
+      <audio id="audio" loop="">
+        <source src="assets/others/KUSO GVKI - Cinnamon (feat. Apfel) (splash! Mag Premiere).mp4" type="audio/mp4" />
+        <script>
+          const audio = document.getElementById('audio');
+
+          app.audioElement = audio;
+          app.audioElement.volume = 0;
+        </script>
+      </audio>
+
+      <video id="background" loop="">
+        <source src="assets/others/KUSO GVKI - Cinnamon (feat. Apfel) (splash! Mag Premiere).mp4" type="video/mp4" />
+        <script>
+          const video = document.getElementById('background');
+
+          app.videoElement = video;
+          app.videoElement.volume = 0;
+        </script>
+      </video>
+    </div>
+
+    <div class="top-right">
+      <i><a class="skip">skip intro</a></i>
+    </div>
+
+    <div class="footer">
+      <i><a href="https://discordapp.com/invite/dgc37sk" target="_BLANK">Discord server</a></i>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/jquery.marquee.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/typed.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/portfolio.js"></script>
+    <script type="text/javascript" src="assets/javascript/analytics.js"></script>
+  </body>
 </html>
